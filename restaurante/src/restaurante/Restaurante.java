@@ -11,6 +11,7 @@ public abstract class Restaurante implements Cocina,Comedor{
 		
 	}
 	
-	public Restaurante (){
-	}
+	protected abstract void limpiar();
+		
+	
 }
